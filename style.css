@@ -4,4 +4,12 @@ html {
 
 iframe {
     border: solid 5px rgb(229, 75, 75);
+    margin: 2%;
+}
+
+#trailers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
 }
