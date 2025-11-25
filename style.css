@@ -7,9 +7,34 @@ iframe {
     margin: 2%;
 }
 
+a {
+    color: rgb(139, 223, 240);
+    background-color: rgb(125, 47, 47);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(42, 42, 75);
+}
+
+li {
+    display: inline;
+    margin: .1%;
+
+    padding-left: 27%;
+}
+
+h1 {
+    padding-left: 1%;
+    color: rgb(229, 75, 75);
+    border-bottom: dotted 5px rgb(139, 223, 240);
+}
+
 #trailers {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 70%;
+    padding-left: 15%;
 }
